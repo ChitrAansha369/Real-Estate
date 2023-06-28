@@ -1,0 +1,176 @@
+/* Header.css */
+
+/* .nav-elements {
+   
+    
+    background-color: var(--black);
+    
+} */
+
+.navbar {
+    
+    /* background-color: var(--black); */
+    /* padding: 10px; */
+    height: 50px;
+}
+.container-fluid{
+    background-color: var(--black);
+    display: flex;
+    height: 50px;
+    
+    
+}
+
+.navbar-brand img{
+   width: 100px;
+   height: 50px;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+.navbar-toggler-icon {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    /* background: var(--black); */
+}
+
+.navbar-nav {
+    text-align: center;
+    color: var(--secondary);
+    margin-top: 20px;
+    float: right;
+    margin-left: 28%;
+    /* display: fixed; */
+}
+.button{
+    font-weight: 500;
+    padding: 0.6 rem 1.4rem;
+    color: white;
+    margin-top: 5px;
+    width: 75px;
+    height: 30px;
+    
+    background: var(--blue-gradient);
+    border: none;
+    border-radius: 4px;
+    transition: all 300ms ease-in;
+}
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.nav-link {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        margin: 10px 0;
+    }
+}
+
+
+
+
+@media (max-width: 412px) {
+    .navbar-brand img {
+        margin-left: 10px;
+    }
+
+    .navbar-nav {
+        margin-left: 0;
+        margin-top: 10px;
+        float: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-link {
+        margin: 0;
+        padding: 5px;
+    }
+
+    .button {
+        margin-top: 10px;
+        padding: 0.4rem 1.2rem;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 360px) {
+    .navbar-brand img {
+        margin-left: 10px;
+        width: 80px;
+        height: 40px;
+    }
+
+    .navbar-nav {
+        margin-left: 0;
+        margin-top: 10px;
+        float: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-link {
+        margin: 5px 0;
+        padding: 5px;
+    }
+
+    .button {
+        margin-top: 10px;
+        padding: 0.4rem 1.2rem;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 280px) {
+    .navbar-brand img {
+        margin-left: 5px;
+        width: 70px;
+        height: 35px;
+    }
+
+    .navbar-nav {
+        margin-left: 0;
+        margin-top: 10px;
+        float: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-link {
+        margin: 5px 0;
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .button {
+        margin-top: 10px;
+        padding: 0.4rem 1rem;
+        font-size: 12px;
+    }
+}
+

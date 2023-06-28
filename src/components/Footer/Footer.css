@@ -1,0 +1,125 @@
+.tank-f{
+    width: 60%;
+    height: 260px;
+    background: var(--blue-gradient);
+    justify-content: center;
+    /* display: flex; */
+    margin-left: 300px;
+    border-radius: 10px;
+    border: 6px solid #5d77d6;
+    text-align: center;
+}
+.headin{
+    /* display: flex; */
+    font-size: 30px;
+    color: whitesmoke;
+    /* padding-left: 190px; */
+    padding-top: 30px;
+    text-align: center;
+}
+.headin-1 h4{
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 50px;
+    margin-left: -20px; */
+    color: rgb(211, 206, 206);
+}
+.btn-2{
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #5a73d7;
+    color: white;
+    margin-top: 20px;
+    box-shadow: var(--shadow);
+    
+}
+.btn-2:hover{
+        cursor: pointer;
+        transform: scale(1.08) ;
+        transition: 1s;
+}
+
+
+
+
+
+@media (max-width: 280px) {
+    .tank-f {
+        width: 100%;
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .headin {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .headin-1 h4 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .btn-2 {
+        width: 120px;
+        height: 30px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 412px) {
+    .tank-f {
+        width: 100%;
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .headin {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .headin-1 h4 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .btn-2 {
+        width: 120px;
+        height: 30px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    .tank-f {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px;
+        height: auto;
+    }
+
+    .headin {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .headin-1 h4 {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
+    .btn-2 {
+        width: 100px;
+        height: 25px;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+}

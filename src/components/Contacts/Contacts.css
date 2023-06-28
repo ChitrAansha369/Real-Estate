@@ -1,0 +1,258 @@
+.head-c {
+    margin-top: 330px;
+    margin-left: 245px;
+}
+
+.head-c h1 {
+    color: orange;
+    font-size: 30px;
+
+}
+
+.head-c h2 {
+    color: rgb(13, 13, 82);
+    font: bolder;
+    font-size: 35px;
+}
+.contacts{
+    column-count: 2;
+    column-gap: 3px;
+    padding-right: 840px;
+    
+}
+
+.contact-description{
+    width: 100%;
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.6;
+    margin: 5px 0;
+}
+
+.common-c{
+    width: 240px;
+    height: 130px;
+    border: 0.8px solid rgb(167, 166, 166);
+    transition: 0.8s;
+    /* transform: perspective(300px) translate3d(50px); */
+    margin-left: 245px;
+    /* cursor: pointer; */
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.7);
+    opacity: 1;
+    position: relative;
+    border-radius: 4px;
+}
+@media(max-width:1200px) {
+    .common-c {
+        max-width: 170px;
+        position: relative;
+    }
+    .box-c{
+    max-width: 0px;
+    }
+    .fa-solid{
+    padding-right: 0px;
+    float: left;
+    margin-bottom: 10px;
+    }
+}
+.common-c:hover{
+    scale: 1.1;
+    box-shadow: var(--shadow);
+}
+.box-c{
+    position: relative;
+   border-radius: 4px;
+    width: 50px;
+    height: 45px;
+    margin-left: 10px;
+    margin-top: 15px;
+    background-color: rgb(224, 222, 222);
+}
+.fa-solid{
+    font-size: 25px;
+    color: rgb(22, 22, 133);
+    padding: 13px 5px 5px 5px;
+    
+}
+
+.content{
+    float: right;
+    margin: -53px 30px 0px 0;
+}
+.p{
+    color: rgb(13, 13, 82);
+    font-size: 25px;
+}
+
+.buton {
+    font-weight: 500;
+    padding: 0.4rem 3.8rem;
+    color: white;
+    background: var(--blue-gradient);
+    /* color: rgb(7, 7, 119);
+    font-size: 20px;
+     */
+    border: none;
+    border-radius: 4px;
+    height: 35px;
+    
+    margin: 10px 0px 35px 27px;
+    transition: all 300ms ease-in;
+}
+.buton:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+/* right side */
+.image-container-c img {
+    width: 22rem;
+    height: 26rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255, 255, 255, 0.12);
+    float: right;
+    margin-right: 160px;
+    margin-top: -430px;
+}
+
+
+
+
+@media (max-width: 412px) {
+    .head-c {
+        margin-top: 200px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .contacts {
+        padding-right: 0;
+        column-count: 1;
+        justify-content: center;
+        align-items: center;
+        margin-left: 120px;
+    }
+
+    .common-c {
+        margin-left: 0;
+        /* column-count: 2; */
+    }
+
+    .image-container-c img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        float: none;
+    }
+    .buton{
+        width: 30%;
+    }
+        
+    .box-c{
+        display: none;
+    }
+    .content{
+        margin-top: 20px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 360px) {
+    .head-c {
+        margin-top: 150px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .contacts {
+        padding-right: 0;
+        column-count: 1;
+        justify-content: center;
+            align-items: center;
+            margin-left: 120px;
+    }
+
+    .common-c {
+        margin-left: 0;
+    }
+
+    .image-container-c img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        float: none;
+    }
+        .buton {
+            width: 30%;
+        }
+    
+        .box-c {
+            display: none;
+        }
+    
+        .content {
+            margin-top: 20px;
+            align-items: center;
+        }
+}
+
+@media (max-width: 280px) {
+    .head-c {
+        margin-top: 120px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .contacts {
+        padding-right: 0;
+        column-count: 1;
+        justify-content: center;
+        align-items: center;
+        margin-left: 120px;
+    }
+
+    .common-c {
+        margin-left: 0;
+        width: 100%;
+        column-count: 2;
+    }
+
+    .box-c {
+        display: none;
+    }
+
+    .fa-solid {
+        padding-right: 0;
+        float: none;
+        margin-bottom: 0;
+    }
+
+    .content {
+        margin: -45px 0 0 0;
+    }
+
+    .buton {
+        margin: 10px 0;
+    }
+
+    .image-container-c img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        float: none;
+    }
+        .buton {
+            width: 30%;
+        }
+    
+        .box-c {
+            display: none;
+        }
+    
+        .content {
+            margin-top: 20px;
+            align-items: center;
+        }
+}

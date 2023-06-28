@@ -1,0 +1,21 @@
+.App{
+    position: relative;
+    overflow: visible;
+    
+}
+.App>:nth-child(1){
+    background: var(--black);
+    position: relative;
+}
+ .white-gradient{
+    margin-top: -460px;
+    margin-left: 0px;
+    position: absolute;
+    width: 8rem;
+    height: 8rem;
+    background: rgba(255, 255, 255, 0.522);
+    filter: blur(60px);
+    border-radius: 100px;
+    
+    
+} 
